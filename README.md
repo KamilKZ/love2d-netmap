@@ -5,7 +5,7 @@ A small 'tool' to visualize the ongoing TCP connections by the use of a world ma
 
 Made it after being inspired by Facepunch WAYWO, it was a fun project. It uses http://freegeoip.net to query to latitude, longitude and possible city of the ip, and plots it on the map.
 
-![Preview of netmap](https://copy.com/20YXMTr7wMAo/2015-02-28_11-13-57.png)
+![Preview of netmap](https://copy.com/aU7EgfaLLhGc/2015-02-28_11-10-14.png)
 
 It has the option to automatically set and update the wallpaper each update period, you can do this by uncommenting in `netmap/setWallpaper.bat`.
 
