@@ -1,0 +1,1 @@
+"netmap\WallpaperChanger.exe" "%AppData%\LOVE\netmap\current.png" 4
