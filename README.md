@@ -20,3 +20,5 @@ Number of threads setting is the amount of worker threads that query geoip. Sinc
 lTCPConnections.dll is a module I wrote while I was learning C++ and it's likely to be broken, it also needs VC++2012 or 2013.
 
 Due to the nature of the project, there is only a Windows (possibly only Windows 7) compatible version.
+
+If you have any questions or problems feel free to leave an issue or contact me directly: kamil.zmich@gmail.com
