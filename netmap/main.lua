@@ -191,7 +191,9 @@ function drawTick()
 	map:getImageData():encode("current.png")
 	
 	print("Setting as wallpaper")
-	os.execute([["netmap\setWallpaper.bat"]])
+	--os.execute([["netmap\setWallpaper.bat"]])
+	os.execute("cd")
+	os.execute([[type NUL && "netmap\WallpaperChanger.exe" "%AppData%\LOVE\netmap/current.png" 4]])
 	
 	drawMapTime:stop()
 end
@@ -227,7 +229,7 @@ function dispatcher()
 	end
 	
 	local received = 0
-	while (	not ( _DEBUG_QUERY_LIMIT > 0 and recived > _DEBUG_QUERY_LIMIT ) and
+	while (	not ( _DEBUG_QUERY_LIMIT > 0 and received > _DEBUG_QUERY_LIMIT ) and
 			not ( #getURL == received )) do -- no more threads to run
 			--take cotton from threads
 			--master/slave right?
